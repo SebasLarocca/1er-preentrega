@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat-regular;
+    src: url('./fonts/Montserrat-Medium.ttf')
+}
+
+body {
+    background-color: black;
+}
+.head {
+    font-family: Montserrat-regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: silver;
+    height: 50px;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.boton-cotizar, .boton-volver {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
